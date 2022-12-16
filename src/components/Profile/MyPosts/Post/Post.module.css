@@ -1,0 +1,8 @@
+
+.content{
+  grid-area: content;
+}
+
+.item img {
+  width: 50px;
+}

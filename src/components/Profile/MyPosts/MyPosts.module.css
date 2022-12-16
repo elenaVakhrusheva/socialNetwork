@@ -1,0 +1,9 @@
+
+.postsBlock{
+  grid-area: content;
+  padding: 10px;
+}
+
+.posts {
+  margin-top: 10px;
+}
