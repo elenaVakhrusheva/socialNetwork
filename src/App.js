@@ -12,7 +12,7 @@ import Music from './components/Music/Music';
 import Setting from './components/Setting/Setting'; */
 
 function App(props) {
- 
+ //debugger;
   return (
     <BrowserRouter>
       <div className="app-wrapper">
@@ -20,16 +20,13 @@ function App(props) {
         <NavBar/>
         <div className="app-wrapper-content">
           <Routes> 
-            <Route path="/*" element={
-              <Profile posts={props.posts} />
+            <Route path="/profile/" element={
+              <Profile state={props.appState.profilePage.postData} />
             }/>
             <Route path="/dialogs/" element={
-              <Dialogs 
-                dialogs={props.dialogs} 
-                messages={props.message}
-              />
+              <Dialogs state={props.appState.dialogsPage.dialogsData} />
             }/>
-            </Routes> 
+          </Routes> 
         </div>
       </div>
      </BrowserRouter>

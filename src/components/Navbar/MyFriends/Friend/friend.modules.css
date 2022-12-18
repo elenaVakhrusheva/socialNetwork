@@ -1,0 +1,11 @@
+.element {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.photo {
+  width: 50px;
+}
+
+ 

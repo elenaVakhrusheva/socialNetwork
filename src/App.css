@@ -12,7 +12,12 @@
 
 .app-wrapper-content {
   grid-area: content;
+  background-color:#fefefe
 
+}
+
+h3 {
+  color: #060606;
 }
 
 /*.App {
